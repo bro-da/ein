@@ -1,7 +1,9 @@
 [project]
 name = "ein"
 version = "0.1.0"
-description = "Add your description here"
+description = "command builder with fzf with plugins"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "typer>=0.20.0",
+]
